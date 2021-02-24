@@ -37,47 +37,47 @@
     margin-bottom: 1rem;
 }
 
-.challegeActive {
+.challengeActive {
     height: 100%;
 
     display: flex;
     flex-direction: column;
 }
 
-.challegeActive header{
+.challengeActive header {
     color: var(--blue);
     font-weight: 600;
-    font-size:1.25rem;
+    font-size: 1.25rem;
     padding: 0 2rem 1.5rem;
     border-bottom: 1px solid var(--gray-line); 
 }
 
-.challegeActive main{
+.challengeActive main {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
 }
 
-.challegeActive main strong{
-    font-weight: 600;
+.challengeActive main strong{
     font-size: 2rem;
+    font-weight: 600;
     color: var(--title);
     margin: 1.5rem 0 1rem;
 }
 
-.challegeActive main p{
+.challengeActive main p {
     line-height: 1.5;
 }
 
-.challegeActive footer{
+.challengeActive footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
 
-.challegeActive footer button{
+.challengeActive footer button {
    height: 3rem;
 
    display: flex;
@@ -93,10 +93,10 @@
    font-weight: 600;
 }
 
-.challegeActive footer button.challengeFailedButton{
+.challengeActive footer button.challengeFailedButton{
     background: var(--red);
 }
 
-.challegeActive footer button.challengeSucceededButton{
+.challengeActive footer button.challengeSucceededButton {
     background: var(--green);
 }
